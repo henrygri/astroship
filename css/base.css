@@ -54,6 +54,22 @@ a {
 }
 
 /* thypography */
+
+.text-xl{
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.text-lg{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.text-md{
+    font-size: 1.125rem;
+    line-height: 1.625;
+}
+
 .text-sm {
     font-size: .875rem;
     line-height: 1.25rem;
@@ -64,7 +80,17 @@ a {
     line-height: 1rem;
 }
 
+.fw-bold{
+    font-weight: 700;
+}
+
 /* alignment */
 .text-center {
     text-align: center;
 }
+
+/* width column */
+.mw-56{
+    max-width: 56rem;
+}
+
