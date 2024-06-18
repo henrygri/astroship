@@ -1,4 +1,4 @@
-div
+
 
 .title-p-main{
     display: flex;
@@ -9,14 +9,21 @@ div
 }
 
 .container{
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+
+
 .card-container{
     display: flex;
     flex-direction: row;
     text-align: center;
+    gap: 50px;
 }
+
+.card-container img{
+    border-radius: 10px;
+}
+
