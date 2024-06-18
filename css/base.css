@@ -1,0 +1,70 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bricolage Grotesque", sans-serif;
+    line-height: inherit;
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.container {
+    max-width: var(--container-width);
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+/* Spacing */
+.my-2 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.my-5 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.mt-5 {
+    margin-top: 4rem;
+}
+
+/* Button */
+.btn {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: .35rem;
+    border: 2px solid;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+/* thypography */
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.text-xs {
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+/* alignment */
+.text-center {
+    text-align: center;
+}

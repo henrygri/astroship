@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__nav {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem
+}
+
+.cta__menu {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+}
