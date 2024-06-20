@@ -6,17 +6,11 @@
     gap: 20px;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
 .card-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 50px;
+    gap: 2.5rem;
 }
 
 @media all and (min-width: 768px) {
