@@ -4,6 +4,16 @@
     align-items: center;
 }
 
+.header__center,.header__right{
+    display: none;
+}
+
+@media all and (min-width: 991px) {
+    .header__center, .header__right{
+        display: block;
+    }
+}
+
 .navbar__nav {
     list-style: none;
     display: flex;
