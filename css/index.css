@@ -1,0 +1,160 @@
+.section1-container{
+    display: flex;
+    width: 100%;
+    max-width: 1220px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 100px;
+    padding: 48px 0 96px 0;
+}
+
+.section1-container-left h1{
+    font-weight: 700;
+    font-size: 3.75rem;
+    letter-spacing: -.025em;
+    line-height: 1;
+    font-family: Bricolage Grotesque Variable, Inter Variable, Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    color: black;
+}
+
+.section1-container-left p{
+    margin-top: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(71 85 105 / var(--tw-text-opacity));
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    max-width: 36rem;
+}
+
+.button{
+    margin-top: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.button1{
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: .25rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 a, .button1 svg{
+    color: white;
+}
+
+.button2{
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button2 a, .button2 svg{
+    color: black;
+}
+
+
+.section2{
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.section2 h2{
+    letter-spacing: -.025em;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.section2-p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 16px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+
+.card{
+    width: 100%;
+    max-width: 345px;
+    align-items: normal;
+}
+
+.svg{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: min-content;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text p{
+    margin-top: 8px;
+}
+
+.section2-footer{
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section2-footer h2{
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+    color: rgb(100 116 139);
+}
+
+.svg-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: black;
+}
+
+.div3{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 80px auto;
+    margin: 80 71 0 71;
+    padding: 80px;
+    gap: 50px;
+    border-radius: 1rem;
+}
+
+.div3 h2{
+    color: white;
+}
+
+.div3 a{
+    background-color: white;
+    padding: 10px;
+    border-radius: 0.25rem;
+}
